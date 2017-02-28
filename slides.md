@@ -133,7 +133,7 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
 
 # Utilizando HTTP Local
 
-  * caddy
+  * caddy / python -mSimpleHTTPServer
   * ngrok
 
 ---
@@ -143,7 +143,7 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
   * Github? Sisas parce
   * Heroku? Posible tambien
   * VPS: 2 horas, custo mensual, sin escalar
-  * S3 vs Firebase
+  * S3/ACM/CloudFront vs Firebase
 
 ---
 
@@ -152,6 +152,13 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
   * Esta presentacion en github en:
     * Amazon S3 + CloudFront
     * Firebase
+
+---
+
+# Demo Time
+
+  * Plataformas
+  * Load Testing (blitz.io)
 
 ---
 
