@@ -133,6 +133,7 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
       * SVG: Perigo con tipos Mime
     * Notepad :)
     * HubPress
+  * Truco: No poner 'http:' ni 'https:'  
   * Pero si quieres APIs, piensa en FaaS:
     * Lambda / API Gateway / Cognito (Auth0?)
   * No te olvides de CORS
