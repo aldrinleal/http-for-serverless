@@ -4,8 +4,7 @@ machine:
 dependencies:
   pre:
     - npm install -g npm@4.1.1
-    - pip install --upgrade awscli awsebcli
-    - npm install -g firebase-tools
+    - pip install --upgrade awscli
 test:
   override:
     - echo ok
@@ -13,4 +12,4 @@ deployment:
   firebase-hosting:
     branch: firebase-hosting
     commands:
-      - firebase deploy --token "$FIREBASE_TOKEN"
+      - aws s3 sync . s3://s3-demo.ingenieux.io/ --acl public-read
