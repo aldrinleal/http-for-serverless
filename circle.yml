@@ -6,6 +6,9 @@ dependencies:
     - npm install -g npm@4.1.1
     - pip install --upgrade awscli awsebcli
     - npm install -g firebase-tools
+test:
+  override:
+    - echo ok
 deployment:
   firebase-hosting:
     branch: firebase-hosting
