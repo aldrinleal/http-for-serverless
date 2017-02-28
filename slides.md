@@ -43,7 +43,9 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
    * SNI
  * SDPY / HTTP 2.0: Binario
    * TLS Involucrado
- * Métodos Restful: GET DELETE PUT POST OPTIONS HEAD PATCH
+ * Restful: 
+    * Metodos: GET DELETE PUT POST OPTIONS HEAD PATCH
+    * Codigos: 200 30x 401 500
 
 ---
 
@@ -53,6 +55,7 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
     * DNS
     * Conexion / Negociacion TLS
     * Requisicion
+    * [ Load Balancer / Servidor Web / Proxy Reverso / Resposta ]
     * Mime Type / Rendering
     * Recursos Auxiliares (max 4 p/ host)
       * CDNs
