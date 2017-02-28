@@ -89,6 +89,34 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
     * Akamai
     * CloudFlare
     * Otros
+  * Cache
+
+---
+
+# DNS
+
+  * Bind / Propio de tu servicio
+    * Hay algunos limitantes
+  * CloudFlare
+  * Route 53
+
+---
+
+# CDNs
+
+  * Limite de 4 conexiones
+  * Geolocalizacion
+  * Caching de contenido
+  * Invalidacion de Cache
+
+---
+
+# Cache
+
+ * Toda pagina tiene politicas de cache
+   * Si posible, usa en tu ventaja
+   * Code Splitting
+   * Minify
 
 ---
 
@@ -113,6 +141,7 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
 # Y En Nube?
 
   * Github? Sisas parce
+  * Heroku? Posible tambien
   * VPS: 2 horas, custo mensual, sin escalar
   * S3 vs Firebase
 
@@ -120,8 +149,9 @@ Aldrin Leal, &lt;aldrin@leal.eng.br&gt;
 
 # Evaluando algunos exemplos
 
-  * Esta presentacion en github
-  * 
+  * Esta presentacion en github en:
+    * Amazon S3 + CloudFront
+    * Firebase
 
 ---
 
