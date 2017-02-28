@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: v6.9.4
+dependencies:
+  pre:
+    - npm install -g npm@4.1.1
+    - pip install --upgrade awscli awsebcli
+    - npm install -g firebase-tools
+deployment:
+  firebase-hosting:
+    branch: firebase-hosting
+    commands:
+      - firebase deploy --token "$FIREBASE_TOKEN"
