@@ -9,7 +9,7 @@ test:
   override:
     - echo ok
 deployment:
-  firebase-hosting:
-    branch: firebase-hosting
+  s3-hosting:
+    branch: s3-hosting
     commands:
       - aws s3 sync . s3://s3-demo.ingenieux.io/ --acl public-read
